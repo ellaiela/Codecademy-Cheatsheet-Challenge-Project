@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>My Cheatsheets</h1>
+        <div class="intro-box">
+            <a href="#html-ref">
+                <p>Cheatsheet</p>
+                <h3>HTML</h3>
+            </a>
+        </div>
+        <div class="intro-box">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                <p>Cheatsheet</p>
+                <h3>CSS</h3>
+            </a>
+        </div>
+        <div class="intro-box">
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" target="_blank">
+                <p>Cheatsheet</p>
+                <h3>JAVASCRIPT</h3>
+            </a>
+        </div>
+        <div class="intro-box">
+            <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">
+                <p>Cheatsheet</p>
+                <h3>REACT</h3>
+            </a>
+        </div>
+        <div class="intro-box">
+            <a href="https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet" target="_blank">
+                <p>Cheatsheet</p>
+                <h3>GIT & GITHUB</h3>
+            </a>
+        </div>
+        <div class="intro-box">
+            <a href="https://www.codecademy.com/paths/front-end-engineer-career-path/" target="_blank">
+                <p>Cheatsheet</p>
+                <h3>FRONT-END ENGINEERING</h3>
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <div id="html-ref" class="html-nav">
+            <h2>HTML Reference</h2>
+            <ul>
+                <li><a href="#elements-html">Elements and Structures</a></li>
+                <li><a href="#html-table">Tables</a></li>
+                <li><a href="#html-form">Forms</a></li>
+                <li><a href="#semantic-html">Semantic HTML</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" arget="_blank">Attributes</a>
+                </li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+            </ul>
+        </div>
+
+        <div class="elements-html">
+            <h4 id="elements-html">Elements and Structures</h4>
+            <table>
+                <tr>
+                    <th>Term</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>HTML (HyperText Markup Language) is used to give content to a web page
+                        and instructs web browsers on how to structure that content.</td>
+                </tr>
+                <tr>
+                    <td>HTML Structure</td>
+                    <td>HTML is organized into a family tree structure.
+                        HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</td>
+                </tr>
+                <tr>
+                    <td>Element Content</td>
+                    <td>The content of an HTML element is the information between the opening and closing tags of an
+                        element.</td>
+                </tr>
+                <tr>
+                    <td>HTML Tag</td>
+                    <td>The syntax for a single HTML tag is an opening angle bracket < followed by the element name and
+                            a closing angle bracket>.</td>
+                </tr>
+                <tr>
+                    <td>Closing Tag</td>
+                    <td>An HTML closing tag is used to denote the end of an HTML element.
+                        The syntax for a closing tag is a left angle bracket < followed by a forward slash / then the
+                            element name and a right angle bracket to close>.</td>
+                </tr>
+                <tr>
+                    <td>HTML Attributes</td>
+                    <td>Values added to the opening tag of an element to configure the element or change the element’s
+                        default behavior. </td>
+                </tr>
+                <tr>
+                    <td>Unique ID Attributes</td>
+                    <td>In HTML, specific and unique id attributes can be assigned to different elements in order to
+                        differentiate between them.</td>
+                </tr>
+                <tr>
+                    <td>Indentation</td>
+                    <td>HTML code should be formatted such that the indentation level of text increases once for each
+                        level of nesting.</td>
+                </tr>
+                <tr>
+                    <td>Link to a Different Part of the Page #</td>
+                    <td>The anchor element &lt;a> can create hyperlinks to different parts of the same HTML document
+                        using the href attribute
+                        to point to the desired location with # followed by the id of the element to link to.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>In HTML, comments can be added between an opening &lt;!-- and closing -->. Content inside of
+                        comments will not be rendered
+                        by browsers, and are usually used to describe a part of code or provide other details.</td>
+                </tr>
+                <tr>
+                    <td>Whitespace</td>
+                    <td>Whitespace, such as line breaks, added to an HTML document between block-level elements will
+                        generally be ignored by the
+                        browser and are not added to increase spacing on the rendered HTML page. Rather, whitespace is
+                        added for organization and easier reading of the HTML document itself.</td>
+                </tr>
+                <tr>
+                    <td>File Path</td>
+                    <td>URL paths in HTML can be absolute paths, like a full URL, for example:
+                        https://developer.mozilla.org/en-US/docs/Learn
+                        or a relative file path that links to a local file in the same folder or on the same server, for
+                        example: ./style.css.</td>
+                </tr>
+                <tr>
+                    <td>Document Type Declaration</td>
+                    <td>The document type declaration &lt;!DOCTYPE html> is required as the first line of an HTML
+                        document.
+                        The doctype declaration is an instruction to the browser about what type of document to expect
+                        and which
+                        version of HTML is being used, in this case it’s HTML5.
+                    </td>
+                </tr>
+            </table><br>
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;html></td>
+                    <td>HTML</td>
+                    <td>The root of an HTML document, should be added after the !DOCTYPE declaration.</td>
+                </tr>
+                <tr>
+                    <td>&lt;head></td>
+                    <td>Head</td>
+                    <td>Contains general information about an HTML page that isn’t displayed on the page itself.</td>
+                </tr>
+                <tr>
+                    <td>&lt;title></td>
+                    <td>Title</td>
+                    <td>Contains a text that defines the title of an HTML document and can only be contained inside a
+                        document’s head element. </td>
+                </tr>
+                <tr>
+                    <td>&lt;body></td>
+                    <td>Body</td>
+                    <td>Represents the content of an HTML document. Content inside &lt;body> tags are rendered on the
+                        web browsers.</td>
+                </tr>
+                <tr>
+                    <td>&lt;div></td>
+                    <td>Division</td>
+                    <td>Used as a container that divides an HTML document into sections and is short for “division”.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;h1>-&lt;h6></td>
+                    <td>Headings</td>
+                    <td>HTML can use six different levels of heading elements ordered from the highest level &lt;h1> to
+                        the lowest level &lt;h6>.</td>
+                </tr>
+                <tr>
+                    <td>&lt;li></td>
+                    <td>List</td>
+                    <td>List item element create list items inside: Ordered List &lt;ol> & Unordered List &lt;ul></td>
+                </tr>
+                <tr>
+                    <td>&lt;ol></td>
+                    <td>Ordered List</td>
+                    <td>Creates a list of items in sequential order. Each list item appears numbered by default.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul></td>
+                    <td>Unordered List</td>
+                    <td>Creates a list of items in no particular order. Each individual list item will have a bullet
+                        point by default.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p></td>
+                    <td>Paragraph</td>
+                    <td>Contains and displays a block of text. </td>
+                </tr>
+                <tr>
+                    <td>&lt;a></td>
+                    <td>Anchor</td>
+                    <td>Used to create hyperlinks in an HTML document. </td>
+                </tr>
+                <tr>
+                    <td>&lt;span></td>
+                    <td>Span</td>
+                    <td>An inline container for text and can be used to group text for styling purposes.</td>
+                </tr>
+                <tr>
+                    <td>&lt;img></td>
+                    <td>Image</td>
+                    <td>Embed images in documents. It is an empty element, meaning it should not have a closing tag.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;video></td>
+                    <td>Video</td>
+                    <td>Video element embeds a media player for video playback.</td>
+                </tr>
+                <tr>
+                    <td>&lt;br></td>
+                    <td>Line Break</td>
+                    <td>Creates a line break in text and is especially useful where a division of text is required. No
+                        closing tag needed. </td>
+                </tr>
+                <tr>
+                    <td>&lt;em></td>
+                    <td>Emphasis</td>
+                    <td>Emphasis element emphasizes text and browsers will usually italicize the emphasized text by
+                        default.</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong></td>
+                    <td>Strong</td>
+                    <td>Highlights important, serious, or urgent text and browsers will normally render this highlighted
+                        text in bold by default.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="html-table">
+            <h4 id="html-table">Tables</h4>
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;table></td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead></td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tbody></td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr></td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td>&lt;td></td>
+                    <td>Table Data</td>
+                    <td>The table data container.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot></td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="html-form">
+            <h4 id="html-form">Forms</h4>
+            <table>
+                <tr>
+                    <th>Form Input Tag Attributes</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;form></td>
+                    <td>Defines a form.</td>
+                </tr>
+                <tr>
+                    <td>&lt;select multiple name=? size=?></td>
+                    <td>Creates a scrolling menu. Size sets the number of
+                        menu items visible before user needs to scroll.</td>
+                </tr>
+                <tr>
+                    <td>&lt;select name=?></td>
+                    <td>Creates a pulldown menu</td>
+                </tr>
+                <tr>
+                    <td>&lt;option></td>
+                    <td>Sets off each menu item</td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea name=? cols="x" rows="y"></textarea>></td>
+                    <td>Creates a text box area. Columns set the width;
+                        rows set the height.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="checkbox" name=? value=?></td>
+                    <td>Creates a checkbox.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="radio" name=? value=?></td>
+                    <td>Creates a radio button.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="text" name=? size=?></td>
+                    <td>Creates a one-line text area. Size sets length, in
+                        characters.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="submit" value=?></td>
+                    <td>Creates a submit button. Value sets the text in the
+                        submit button.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="image" name=? src=? border=? alt=?></td>
+                    <td>Creates a submit button using an image.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="reset"></td>
+                    <td>Creates a reset button.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="email" name=?> </td>
+                    <td>Sets a single-line textbox for email addresses.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="url" name=?> </td>
+                    <td>Sets a single-line textbox for URLs.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="number" name=?> </td>
+                    <td>Sets a single-line textbox for a number.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="range" name=?> </td>
+                    <td> Sets a single-line text box for a range of numbers.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="date/month/week/time" name=?> </td>
+                    <td>Sets a single-line text box with a calendar
+                        showing the date/month/week/time </td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="color" name=?> </td>
+                    <td> Sets a single-line text box for picking a color </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="semantic-html">
+            <h4 id="semantic-html">Semantic HTML</h4>
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;header></td>
+                    <td>Header</td>
+                    <td>Specifies a header for a section or document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav></td>
+                    <td>Navigation</td>
+                    <td>Defines a set of main navigation links.</td>
+                </tr>
+                <tr>
+                    <td>&lt;section></td>
+                    <td>Section</td>
+                    <td>Defines a section or group of related contents.</td>
+                </tr>
+                <tr>
+                    <td>&lt;article></td>
+                    <td>Article</td>
+                    <td>Specifies an independent, self-contained content.</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside></td>
+                    <td>Aside</td>
+                    <td>The table data container.</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer></td>
+                    <td>Footer</td>
+                    <td>Is a footer for a document or a section.</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>All Rights Reserved. &copy; 2022 by Juniela Bautista</p>
+    </div>
+</body>
+
+</html>
